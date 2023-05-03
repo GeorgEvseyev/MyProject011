@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565FFE97287C83DA007BF08B /* FireParticles.sks in Resources */ = {isa = PBXBuildFile; fileRef = 565FFE96287C83DA007BF08B /* FireParticles.sks */; };
 		56C5AD3D28789FF4009FC49F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5AD3C28789FF4009FC49F /* AppDelegate.swift */; };
 		56C5AD3F28789FF4009FC49F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 56C5AD3E28789FF4009FC49F /* GameScene.sks */; };
-		56C5AD4128789FF4009FC49F /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 56C5AD4028789FF4009FC49F /* Actions.sks */; };
 		56C5AD4328789FF4009FC49F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5AD4228789FF4009FC49F /* GameScene.swift */; };
 		56C5AD4528789FF4009FC49F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C5AD4428789FF4009FC49F /* GameViewController.swift */; };
 		56C5AD4828789FF4009FC49F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C5AD4628789FF4009FC49F /* Main.storyboard */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		565FFE96287C83DA007BF08B /* FireParticles.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireParticles.sks; sourceTree = "<group>"; };
 		56C5AD3928789FF4009FC49F /* MyProject011.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject011.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C5AD3C28789FF4009FC49F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56C5AD3E28789FF4009FC49F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		56C5AD4028789FF4009FC49F /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		56C5AD4228789FF4009FC49F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		56C5AD4428789FF4009FC49F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		56C5AD4728789FF4009FC49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,10 +61,10 @@
 			children = (
 				56C5AD3C28789FF4009FC49F /* AppDelegate.swift */,
 				56C5AD3E28789FF4009FC49F /* GameScene.sks */,
-				56C5AD4028789FF4009FC49F /* Actions.sks */,
 				56C5AD4228789FF4009FC49F /* GameScene.swift */,
 				56C5AD4428789FF4009FC49F /* GameViewController.swift */,
 				56C5AD4628789FF4009FC49F /* Main.storyboard */,
+				565FFE96287C83DA007BF08B /* FireParticles.sks */,
 				56C5AD4928789FF5009FC49F /* Assets.xcassets */,
 				56C5AD4B28789FF5009FC49F /* LaunchScreen.storyboard */,
 			);
@@ -131,9 +131,9 @@
 			files = (
 				56C5AD4828789FF4009FC49F /* Main.storyboard in Resources */,
 				56C5AD3F28789FF4009FC49F /* GameScene.sks in Resources */,
+				565FFE97287C83DA007BF08B /* FireParticles.sks in Resources */,
 				56C5AD4A28789FF5009FC49F /* Assets.xcassets in Resources */,
 				56C5AD4D28789FF5009FC49F /* LaunchScreen.storyboard in Resources */,
-				56C5AD4128789FF4009FC49F /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,8 +298,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +311,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -326,8 +327,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
